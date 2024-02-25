@@ -207,6 +207,7 @@ Namespace DAL
                 dr.Close()
                 cmd.Dispose()
             End Using
+            Return Rank
             Throw New NotImplementedException()
         End Sub
     End Class
